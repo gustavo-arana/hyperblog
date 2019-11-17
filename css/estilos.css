@@ -5,7 +5,14 @@ body
     color: deeppink;
 }
 
+body div h1{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+}
+
 .container{
+    padding: 10px;
     border-style: solid;
     border-width: 2px;
     width: 600px;
