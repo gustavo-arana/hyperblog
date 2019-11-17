@@ -5,6 +5,19 @@ body
     color: deeppink;
 }
 
+.header{
+    background-color: blue;
+    color: white;
+    font-style: bold;
+    text-align: left;
+    width: 600px;
+    font-size: 25px;
+
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 30px;
+}
+
 .container{
     border-style: solid;
     border-width: 2px;
