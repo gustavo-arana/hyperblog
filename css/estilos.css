@@ -11,6 +11,19 @@ body div h1{
     padding-left: 10px;
 }
 
+.header{
+    background-color: blue;
+    color: white;
+    font-style: bold;
+    text-align: left;
+    width: 600px;
+    font-size: 25px;
+
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 30px;
+}
+
 .container{
     padding: 10px;
     border-style: solid;
