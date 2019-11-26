@@ -1,32 +1,53 @@
 body
 {
+    background: #1e1f24;
+    color: #333;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: deeppink;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-body div h1{
-    font-size: 25px;
-    text-align: left;
-    padding-left: 10px;
-}
-
-.header{
-    background-color: blue;
+#cabecera
+{
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
-    font-style: bold;
-    text-align: left;
-    width: 600px;
-    font-size: 25px;
-
-    padding-top: 5px;
-    padding-left: 5px;
-    height: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
 }
 
-.container{
-    padding: 10px;
-    border-style: solid;
-    border-width: 2px;
-    width: 600px;
+#cabecera #logo
+{
+   width: 20px;
+   vertical-align: middle;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 20px;
+}
+
+#post
+{
+    background: white;
+    padding: 1em;
 }
